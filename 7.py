@@ -10,6 +10,7 @@ for send in range(1000, 9999 + 1):
                     more[0] not in set(send):
 
                     money = str(int(send) + int(more))
+
                     if money[0:2] == more[0:2] and \
                             money[2] == send[2] and \
                             money[-2] == more[-1] and \
